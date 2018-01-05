@@ -1,0 +1,17 @@
+.loginform{
+	margin: 0 auto;
+}
+.form-field{
+	margin: 20px 0px;
+}
+input{
+	width: 300px;
+	padding: 10px;
+	border-radius: 10px;
+	
+}
+input[type="submit"]{
+	background: green;
+	color: #fff;
+	width: 100px;
+}

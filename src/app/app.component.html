@@ -1,0 +1,23 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{title}}!
+  </h1>
+  <form class="loginform">
+    <div class="form-field">
+        <label for="username">Username</label>
+        <input type="text" name="username">
+    </div>
+    <div class="form-field">
+        <label for="password">Password</label>
+        <input type="password" name="pwd">
+    </div>
+    <input type="submit" value="Submit"><br/>
+    <input type="text" #age name="age">
+    <p *ngIf="(age.value>100)">You are too old</p>
+    <button (click) = "alert(age)">Show age</button>
+
+  </form>  
+</div>
+
+
